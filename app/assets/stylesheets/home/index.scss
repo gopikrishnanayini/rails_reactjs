@@ -1,0 +1,30 @@
+@import "../variables";
+
+.home-container {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-mid-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.home-title {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.home-btn-link {
+  color: white;
+  background-color: $dark-blue;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0px;
+  width: fit-content;
+  padding: 10px;
+}

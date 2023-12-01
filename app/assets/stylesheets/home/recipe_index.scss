@@ -1,0 +1,61 @@
+@import "../variables";
+
+.recipe-index-header {
+  background-color: $light-gray;
+  text-align: center;
+  padding: 50px 80px 150px 80px;
+  margin-bottom: 25px;
+}
+
+.recipe-index-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+  padding: 0 20px 0 20px;
+}
+
+.new-recipe-link-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.recipe-index-new-link {
+  color: white;
+  background-color: $dark-blue;
+  text-decoration: none;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  column-gap: 30px;
+  row-gap: 50px;
+  margin: 25px 0 100px 0;
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.view-recipe-link {
+  color: white;
+  background-color: $dark-blue;
+  text-decoration: none;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  width: fit-content;
+}

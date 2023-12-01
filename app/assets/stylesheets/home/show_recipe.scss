@@ -1,0 +1,93 @@
+@import "../variables";
+
+.show-recipe-image {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.recipe-show-name {
+  color: white;
+  font-size: 40px;
+}
+
+.recipe-show-mid-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 30px 0;
+  padding: 0 30px 0 30px;
+}
+
+.recipe-show-ingredients-div {
+  margin-right: 20px;
+}
+
+.recipe-show-ingredients-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+$gray: rgb(202, 202, 202);
+
+.ingredients-ul {
+  border: 1px solid $gray;
+  list-style: none;
+}
+
+.recipe-show-li {
+  padding: 10px;
+  border-bottom: 1px solid $gray;
+}
+
+.recipe-show-prep-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-show-btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.recipe-show-edit-link {
+  color: white;
+  background-color: $dark-blue;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.recipe-show-del-btn {
+  color: white;
+  background-color: red;
+  border: 0px;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.recipe-show-back-btn {
+  background-color: $dark-blue;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: 30px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+}
